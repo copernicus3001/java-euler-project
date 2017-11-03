@@ -1,0 +1,25 @@
+Ciąg liczbowy Fibonacciego
+
+Spośród wszystkich ciągów liczbowych, które występują, jeden jest szczególnie interesujący. 
+Ciąg ten zawdzięcza swoją nazwę matematykowi z Pizy, Leonardowi, który pod nazwiskiem Fibonacci 
+wydał w 1202 roku słynną księgę Liber Abaci. Ojciec Leonarda nosił przydomek Bonacci, stąd syn 
+został Fibonaccim (filius Bonacci - syn dobrotliwego) Liczby naturalne tworzące ciąg o takiej 
+własności, że kolejny wyraz (z wyjątkiem dwóch pierwszych) jest sumą dwóch poprzednich nazywa się 
+liczbami Fibonacciego i pojawiają się w tak wielu sytuacjach, że wydaje się to niemożliwe.
+
+Ciąg Fibonacciego to ciąg liczb określony rekurencyjnie w sposób następujący:
+F0 = 0
+F1 = 1 
+Fn = Fn-1 + Fn-2,   dla n ≥ 2
+
+Początkowe wartości tego ciągu to:
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, ...
+
+Podstawowy ciąg liczb Fibonacciego to: 1, 1, 2, 3, 5, 8, ... Każda liczba w ciągu jest sumą dwóch 
+poprzednich (poza pierwszą i drugą). Mamy więc do czynienia z ciągiem rekurencyjnym. Ciąg liczbowy 
+Fibonacciego jest pierwszym ze znanych ciągów tego rodzaju.
+
+W wyniku podzielenia każdej z liczb ciągu przez jej poprzednik otrzymuje się iloraz oscylujący wokół 
+1,618 - liczby złotego podziału. W miarę zwiększania się liczb zmniejszają się odchylenia od tej 
+wartości. 
+Dokładna wartość granicy jest złotą liczbą: Φ = (1 + √5) / 2 = 1,6180339887498948482...
