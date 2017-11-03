@@ -1,5 +1,5 @@
 
-public class Euler001 {
+public class Euler_001 {
 	public static void main(String[] args) {
 		
 		int suma = 0;
